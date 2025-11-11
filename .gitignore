@@ -1,30 +1,41 @@
-/vendor/
-node_modules/
+.DS_Store
+.phpunit.result.cache
+.vue.alias.js
+.env
+.env.backup
+
+/vendor
+/node_modules
+
+/public/hot*
+/public/build
+/public/modules/*/build
+/public/storage
+
+/lang/.custom
+
+/tests/coverage
+
+/storage/*.key
+/storage/hot*
+/storage/.installed
+/storage/settings.json
+/storage/i18n-locales.js
+
+/_build
+/_patch
+/_packages
+
+Homestead.json
+Homestead.yaml
+
 npm-debug.log
 yarn-error.log
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+_ide_helper.php
+_ide_helper_models.php
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
+.phpstorm.meta.php
 
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
-
-/public/build
-/storage/pail
-.env.backup
-.env.production
-.phpactor.json
-auth.json
+/.fleet
+/.idea
